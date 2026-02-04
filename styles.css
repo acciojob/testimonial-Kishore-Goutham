@@ -1,16 +1,27 @@
 /*  your css code here. If applicable */
 #testimonials{
-  padding:20px;
   background-color:#f5f5f5;
+  padding:20px;
+}
+
+#testimonials h2{
+  margin-bottom:15px;
 }
 
 .testimonial{
-  padding:15px;
-  border:1px solid #ddd;
   background-color:#fff;
+  border:1px solid #ddd;
+  padding:15px;
+  margin-bottom:15px;
+}
+
+.testimonial p{
+  margin:0 0 10px 0;
+  font-size: 13px	
 }
 
 .author{
   text-align:right;
   font-style:italic;
+  margin:0;
 }
